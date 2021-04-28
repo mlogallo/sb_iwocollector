@@ -15,7 +15,8 @@ variable "ikswsname" {
 
 resource helm_release iwok8scollector {
   name       = "iwok8scollector"
-  namespace = "iwo-collector"
+  namespace = "default"
+#  namespace = "iwo-collector"
 #  repository = "https://prathjan.github.io/helm-chart"
   chart = "https://prathjan.github.io/helm-chart/iwok8scollector-0.6.2.tgz"
 
