@@ -2,7 +2,7 @@
 data "terraform_remote_state" "iksws" {
   backend = "remote"
   config = {
-    organization = "Netnology-MINT"
+    organization = "mlogallo"
     workspaces = {
       name = var.ikswsname 
     }
